@@ -14,10 +14,12 @@
     <!-- inizio header  -->
     <header>
         <h1>Il mio Viaggio a londra</h1>
-        <img src="/img/pexels-bill-emrich-230794-0.jpg" alt="london eye">
-        <img src="/img/pexels-bill-emrich-230794-1.jpg" alt="london skyline">
-        <img src="/img/pexels-bill-emrich-230794-2.jpg" alt="london river">
-        <hr>
+        <div>
+            <img src="/img/pexels-bill-emrich-230794-0.jpg" alt="london eye">
+            <img src="/img/pexels-bill-emrich-230794-1.jpg" alt="london skyline">
+            <img src="/img/pexels-bill-emrich-230794-2.jpg" alt="london river">
+        </div>
+            <hr>
     </header>
     <!-- fine header  -->
 
@@ -28,14 +30,20 @@
             <h2>
                 Le mie spese
             </h2>
-            
+            <!-- inizio table -->
             <table>
+                <!-- inizio intestazione -->
                 <thead>
                     <tr>
                         <th>Numero</th>
                         <th>Descrizione</th>
                         <th>Costo</th>
                     </tr>
+                </thead> 
+                <!-- fine intestazione            -->
+
+                <!-- inizio body  -->
+                <tbody>
                     <tr>
                         <td>1</td>
                         <td>Biglietto Aereo</td>
@@ -51,33 +59,41 @@
                         <td>Biglietto Aereo</td>
                         <td>120&euro;</td>
                     </tr>
-                    <tfoot>
-                        <td>Totale</td>
-                        <td></td>
+                </tbody> 
+                <!-- fine body  -->
+
+                <!-- inizio footer  -->
+                 <tfoot>
+                        <td colspan="2">Totale</td>
                         <td>360&euro;</td>
-                    </tfoot>
-                </thead>                
+                </tfoot>
+                <!-- fine footer  -->
             </table>
+            <!-- fine table  -->
             <hr>
         </section>
         <!-- /section 1 table -->
 
         <!-- section 2 to do list  -->
         <section>
-            <h2>Cose da fare</h2>
+            <h3>Cose da fare</h3>
+            <!-- inizio elenco puntato -->
             <ul>
                 <li>Visitare la Tower of London<strong>&cross;</strong></li>
                 <li>Visitare Greenwich<strong>&checkmark;</strong></li>
                 <li>Ascoltare un'artista di strada a Covent Garden<strong>&checkmark;</strong></li>
                 <li>Mangiare il tipico FIsh and Chips inglese<strong>&cross;</strong></li>
             </ul>
+            <!-- fine elenco puntato -->
             <hr>
         </section>
         <!-- /section 2 to do list -->
 
         <!-- section 3 info utili  -->
         <section>
-            <h2>Info utili:</h2>
+            <h3>Info utili:</h3>
+
+            <!-- inizio elenco numertao -->
             <ol>
                 <li>Numeri utili di emergenza
                     <ul>
@@ -99,6 +115,7 @@
                     </ul>
                 </li>
             </ol>
+            <!-- fine elenco numerato  -->
             <hr>
         </section>
         <!-- / section 3 info utili  -->
